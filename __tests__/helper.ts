@@ -50,7 +50,7 @@ export const setupNockJobs = (runId: string, fixture: string) =>
       return obj;
     });
 
-export const successMsg = ':white_check_mark: Succeeded GitHub Actions\n';
+export const successMsg = '';
 export const cancelMsg = ':warning: Canceled GitHub Actions\n';
 export const failMsg = ':no_entry: Failed GitHub Actions\n';
 export const getApiFixture = (name: string): any =>

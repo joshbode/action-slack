@@ -129,10 +129,7 @@ export class Client {
     switch (this.with.status) {
       case Success:
         text += this.mentionText(Success);
-        text += this.insertText(
-          ':white_check_mark: Succeeded GitHub Actions\n',
-          value,
-        );
+        text += this.insertText('', value);
         return text;
       case Cancelled:
         text += this.mentionText(Cancelled);
